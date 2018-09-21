@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Корни квадратного уравнения</title>
+    <link href="style/main.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="/HttpHanrler/probe.kor">
+        <div class="form-group">
+            <label for="a">Введите число a</label>
+            <input type="text" name="a" id="a" title="Значение 'а' не может быть равным нулю" value="1" />
+        </div>
+        <div class="form-group">
+            <label for="b">Введите число b</label>
+            <input type="text" name="b" id="b" title="Введите любое число" value="0" />
+        </div>
+        <div class="form-group">
+            <label for="c">Введите число c</label>
+            <input type="text" name="c" id="c" title="Введите любое число" value="0" />
+        </div>
+        <div class="form-group">
+            <input class="btn" type="submit" name="name" value="Найти корни" />
+        </div>
+    </form>
+</body>
+</html>
